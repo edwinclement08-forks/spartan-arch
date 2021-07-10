@@ -7,7 +7,7 @@ password=$2
 fast=$3
 
 # setup mirrors
-if [ "$fast" -eq "1"]
+if [ "$fast" -eq "1" ]
 then
     echo 'Setting up mirrors'
     cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
