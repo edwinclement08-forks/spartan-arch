@@ -53,5 +53,5 @@ curl -L https://raw.githubusercontent.com/abrochard/spartan-arch/master/chroot-i
 arch-chroot /mnt /bin/bash ./chroot-install.sh $user $password $fast
 
 # reboot
-umount /mnt
-reboot
+# umount /mnt
+# reboot
